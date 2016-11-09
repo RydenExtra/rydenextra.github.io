@@ -235,11 +235,14 @@ p {
 }
 
 @media (max-width: 991px) {
+  .cta {
+    height: 150vh;
+  }
   .cta-in {
-    padding-top: 10%;
+    padding-top: 20%;
   }
   .cta-in.vnster {
-    padding-top: 5%;
+    padding-top: 15%;
   }
   .cta-in-form-input {
     font-size: 1.8em;
@@ -259,11 +262,14 @@ p {
 }
 
 @media (max-width: 767px) {
+  .cta {
+    height: 200vh;
+  }
   .cta-in {
-    padding-top: 10%;
+    padding-top: 20%;
   }
   .cta-in.vnster {
-    padding-top: 5%;
+    padding-top: 15%;
   }
   .form-header {
     font-size: 2.175em;
@@ -279,7 +285,7 @@ p {
 
 @media (max-width: 479px) {
   .cta {
-    height: 200vh;
+    height: 150vh;
   }
   .cta-in {
     padding-top: 117%;
